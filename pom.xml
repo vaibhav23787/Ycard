@@ -26,17 +26,6 @@
         <name>bagku01-Z22258-releases</name>
         <url>http://bagku01-z22258.ibn.broadcom.net:8081/artifactory/libs-release</url>
     </repository>
-    <servers>
-    <server>
-      <username>admin</username>
-      <password>interOP@123</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>admin</username>
-      <password>interOP@123</password>
-      <id>snapshots</id>
-    </server>
-  </servers>
+    
 </distributionManagement>
 </project>
