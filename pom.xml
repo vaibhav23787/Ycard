@@ -26,5 +26,17 @@
         <name>bagku01-Z22258-releases</name>
         <url>http://bagku01-z22258.ibn.broadcom.net:8081/artifactory/libs-release</url>
     </repository>
+    <servers>
+    <server>
+      <username>${security.getCurrentUsername()}</username>
+      <password>${security.getEscapedEncryptedPassword()!"*** Insert encrypted password here ***"}</password>
+      <id>central</id>
+    </server>
+    <server>
+      <username>${security.getCurrentUsername()}</username>
+      <password>${security.getEscapedEncryptedPassword()!"*** Insert encrypted password here ***"}</password>
+      <id>snapshots</id>
+    </server>
+  </servers>
 </distributionManagement>
 </project>
