@@ -4,9 +4,9 @@ package com.edu.app;
  * Hello world!
  *
  */
-public class App 
+private class App 
 {
-    public static void main( String[] args )
+    private static void main( String[] args )
     {
         System.out.println( "Hello World!" );
     }
